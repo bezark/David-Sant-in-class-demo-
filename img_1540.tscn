@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://jecffj3hoaen"]
+
+[ext_resource type="Texture2D" uid="uid://b4apjup5vtrw1" path="res://IMG_1540.PNG" id="1_mwut2"]
+[ext_resource type="PackedScene" uid="uid://cujn4gymo7snb" path="res://SCENE.tscn" id="2_sfh80"]
+[ext_resource type="Texture2D" uid="uid://2vjcrdf25c41" path="res://icon.svg" id="3_rc62e"]
+
+[node name="Img1540" type="Sprite2D"]
+position = Vector2(175, 463.75)
+scale = Vector2(0.607595, 0.337576)
+texture = ExtResource("1_mwut2")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Node2D" parent="Node2D" instance=ExtResource("2_sfh80")]
+position = Vector2(701.125, -1272.33)
+
+[node name="Node2D2" parent="." instance=ExtResource("2_sfh80")]
+position = Vector2(-319.292, -1292.26)
+
+[node name="Node2D3" parent="." instance=ExtResource("2_sfh80")]
+position = Vector2(-70.7708, -925.072)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(758, 174.62)
+scale = Vector2(2.2487, 3.16144)
+texture = ExtResource("3_rc62e")

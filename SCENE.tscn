@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://cujn4gymo7snb"]
+
+[ext_resource type="Script" path="res://Node2D.gd" id="1_fakw1"]
+[ext_resource type="Texture2D" uid="uid://dmq3bd6gm08dj" path="res://cloud-png-image-from-pngfre-13.png" id="2_8rv74"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_fakw1")
+
+[node name="Cloud-png-image-from-pngfre-13" type="Sprite2D" parent="."]
+position = Vector2(834, 75)
+scale = Vector2(0.297045, 0.200914)
+texture = ExtResource("2_8rv74")
+
+[node name="Cloud-png-image-from-pngfre-14" type="Sprite2D" parent="Cloud-png-image-from-pngfre-13"]
+position = Vector2(-2320.57, 313.567)
+scale = Vector2(0.972556, 1.77844)
+texture = ExtResource("2_8rv74")
+
+[node name="Cloud-png-image-from-pngfre-15" type="Sprite2D" parent="Cloud-png-image-from-pngfre-13/Cloud-png-image-from-pngfre-14"]
+position = Vector2(2619.05, 164.247)
+scale = Vector2(1.301, 0.709121)
+texture = ExtResource("2_8rv74")
+
+[node name="Cloud-png-image-from-pngfre-16" type="Sprite2D" parent="Cloud-png-image-from-pngfre-13/Cloud-png-image-from-pngfre-14/Cloud-png-image-from-pngfre-15"]
+position = Vector2(-1162.2, -536.253)
+scale = Vector2(1.11704, 1.10667)
+texture = ExtResource("2_8rv74")
