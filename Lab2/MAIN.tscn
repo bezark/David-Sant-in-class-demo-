@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://jecffj3hoaen"]
+
+[ext_resource type="Texture2D" uid="uid://b4apjup5vtrw1" path="res://IMG_1540.PNG" id="1_q8d04"]
+[ext_resource type="Script" path="res://img_1540.gd" id="2_iplao"]
+[ext_resource type="PackedScene" uid="uid://cujn4gymo7snb" path="res://SCENE.tscn" id="3_4a00e"]
+[ext_resource type="Texture2D" uid="uid://2vjcrdf25c41" path="res://icon.svg" id="4_ucg60"]
+[ext_resource type="PackedScene" uid="uid://iugptiqpk72h" path="res://if_else_demo.tscn" id="5_smrm0"]
+
+[node name="png lab2" type="Sprite2D"]
+position = Vector2(175, 444.25)
+scale = Vector2(0.607595, 0.377291)
+texture = ExtResource("1_q8d04")
+script = ExtResource("2_iplao")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Node2D" parent="Node2D" instance=ExtResource("3_4a00e")]
+position = Vector2(701.125, -1272.33)
+script = null
+
+[node name="Node2D2" parent="." instance=ExtResource("3_4a00e")]
+position = Vector2(-319.292, -1292.26)
+script = null
+
+[node name="Node2D3" parent="." instance=ExtResource("3_4a00e")]
+position = Vector2(-70.7708, -925.072)
+script = null
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(1262.35, -766.649)
+scale = Vector2(2.2487, 3.16144)
+texture = ExtResource("4_ucg60")
+
+[node name="Img1540" type="Sprite2D" parent="."]
+position = Vector2(419.687, 177.592)
+scale = Vector2(0.682292, 0.51419)
+texture = ExtResource("1_q8d04")
+
+[node name="IF else demo" parent="." instance=ExtResource("5_smrm0")]
